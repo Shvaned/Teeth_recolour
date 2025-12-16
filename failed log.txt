@@ -1,0 +1,139 @@
+(Face) PS D:\JasielC\Face\final_exe> pyinstaller --clean --noconfirm tooth_colour.spec
+137 INFO: PyInstaller: 6.14.2, contrib hooks: 2025.5
+138 INFO: Python: 3.10.11
+153 INFO: Platform: Windows-10-10.0.26100-SP0
+153 INFO: Python environment: D:\Face
+155 INFO: Removing temporary files and cleaning cache in C:\Users\hidev\AppData\Local\pyinstaller
+229 INFO: Module search paths (PYTHONPATH):
+['D:\\Face\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\hidev\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip',
+ 'C:\\Users\\hidev\\AppData\\Local\\Programs\\Python\\Python310\\DLLs',
+ 'C:\\Users\\hidev\\AppData\\Local\\Programs\\Python\\Python310\\lib',
+ 'C:\\Users\\hidev\\AppData\\Local\\Programs\\Python\\Python310',
+ 'D:\\Face',
+ 'D:\\Face\\lib\\site-packages',
+ 'D:\\Face\\lib\\site-packages\\win32',
+ 'D:\\Face\\lib\\site-packages\\win32\\lib',
+ 'D:\\Face\\lib\\site-packages\\Pythonwin',
+ 'D:\\Face\\lib\\site-packages\\setuptools\\_vendor',
+ 'D:\\JasielC\\Face\\final_exe']
+516 INFO: Appending 'datas' from .spec
+516 INFO: checking Analysis
+517 INFO: Building Analysis because Analysis-00.toc is non existent
+517 INFO: Running Analysis Analysis-00.toc
+517 INFO: Target bytecode optimization level: 0
+517 INFO: Initializing module dependency graph...
+518 INFO: Initializing module graph hook caches...
+528 INFO: Analyzing modules for base_library.zip ...
+1106 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+1144 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+1906 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+2485 INFO: Caching module dependency graph...
+2511 INFO: Looking for Python shared library...
+2516 INFO: Using Python shared library: C:\Users\hidev\AppData\Local\Programs\Python\Python310\python310.dll
+2516 INFO: Analyzing D:\JasielC\Face\final_exe\tooth_colour.py
+2524 INFO: Processing standard module hook 'hook-cv2.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+2906 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+3055 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+3138 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+3582 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+3681 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+3721 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+4396 INFO: Processing standard module hook 'hook-psutil.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+4918 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+4959 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+4973 INFO: SetuptoolsInfo: initializing cached setuptools info...
+7537 INFO: Processing standard module hook 'hook-torch.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+2025-07-24 18:58:02.047481: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-24 18:58:02.679894: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+5629 WARNING: Failed to collect submodules for 'torch.testing._internal.opinfo' because importing 'torch.testing._internal.opinfo' raised: ModuleNotFoundError: No module named 'expecttest'
+D:\Face\lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `TorchScript` support for functional optimizers is deprecated and will be removed in a future PyTorch release. Consider using the `torch.compile` optimizer instead.
+  __import__(name)
+W0724 18:58:06.472000 14236 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+D:\Face\lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(name)
+D:\Face\lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(name)
+D:\Face\lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(name)
+17303 INFO: hook-torch: this torch build does not depend on MKL...
+17304 INFO: hook-torch: raising recursion limit to 5000
+17400 INFO: Processing standard module hook 'hook-sympy.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17947 INFO: Processing standard module hook 'hook-matplotlib.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+18155 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+18200 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+18326 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+18391 INFO: Processing standard module hook 'hook-PIL.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+18444 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+18768 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+18791 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+19234 INFO: Processing standard module hook 'hook-jinja2.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+19469 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+19551 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+20149 INFO: Processing standard module hook 'hook-dateutil.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20184 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20899 INFO: Processing standard module hook 'hook-certifi.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+24967 INFO: Processing standard module hook 'hook-scipy.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+25433 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+25440 INFO: Processing pre-find-module-path hook 'hook-distutils.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+25622 INFO: Processing standard module hook 'hook-distutils.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+25645 INFO: Processing standard module hook 'hook-_osx_support.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+25657 INFO: Processing standard module hook 'hook-distutils.util.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+26129 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+26424 INFO: Processing pre-safe-import-module hook 'hook-jaraco.text.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26430 INFO: Setuptools: 'jaraco.text' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.text'!
+26433 INFO: Processing standard module hook 'hook-setuptools.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+26480 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26486 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+26539 INFO: Processing pre-safe-import-module hook 'hook-jaraco.functools.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26546 INFO: Setuptools: 'jaraco.functools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.functools'!
+26550 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26555 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+26563 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+26571 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26575 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+26668 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26675 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+26912 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+26994 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+27001 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+27006 INFO: Processing pre-safe-import-module hook 'hook-jaraco.context.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+27011 INFO: Setuptools: 'jaraco.context' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.context'!
+27015 INFO: Processing pre-safe-import-module hook 'hook-backports.tarfile.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+27020 INFO: Setuptools: 'backports.tarfile' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.backports.tarfile'!
+27279 INFO: Processing standard module hook 'hook-backports.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+27281 INFO: Processing pre-safe-import-module hook 'hook-platformdirs.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+27292 INFO: Processing standard module hook 'hook-platformdirs.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+27710 INFO: Processing standard module hook 'hook-pygments.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+29301 INFO: Processing standard module hook 'hook-IPython.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+30340 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+30984 INFO: Processing standard module hook 'hook-wcwidth.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+31421 INFO: Processing standard module hook 'hook-jedi.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+32004 INFO: Processing standard module hook 'hook-parso.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+32687 INFO: Processing standard module hook 'hook-sqlite3.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+33140 INFO: Processing standard module hook 'hook-pycparser.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+33636 INFO: Processing standard module hook 'hook-scipy.linalg.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+34216 INFO: Processing standard module hook 'hook-urllib3.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+37301 INFO: Processing pre-safe-import-module hook 'hook-tensorflow.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+37310 INFO: Processing standard module hook 'hook-tensorflow.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+37311 INFO: hook-tensorflow: tensorflow dist name: tensorflow
+37311 INFO: hook-tensorflow: tensorflow version: 2.19.0
+2025-07-24 18:58:28.113155: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-24 18:58:28.727223: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-24 18:58:35.915439: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-07-24 18:58:36.478831: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+4691 WARNING: Failed to collect submodules for 'keras.src.backend.openvino' because importing 'keras.src.backend.openvino' raised: ModuleNotFoundError: No module named 'openvino'
+50712 WARNING: collect_dynamic_libs - skipping library collection for module 'tensorflow-plugins' as it is not a package.
+53798 INFO: Processing standard module hook 'hook-h5py.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+57738 INFO: Processing standard module hook 'hook-pandas.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+58600 INFO: Processing standard module hook 'hook-pytz.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+59042 INFO: Processing standard module hook 'hook-scipy.sparse.csgraph.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+59886 INFO: Processing standard module hook 'hook-scipy.spatial._ckdtree.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+59937 INFO: Processing standard module hook 'hook-scipy.special._ufuncs.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+60005 INFO: Processing standard module hook 'hook-scipy.special._ellip_harm_2.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+60157 INFO: Processing standard module hook 'hook-scipy.spatial.transform.rotation.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+60972 INFO: Processing standard module hook 'hook-scipy.stats._stats.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+62229 INFO: Processing standard module hook 'hook-pandas.io.formats.style.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+63228 INFO: Processing standard module hook 'hook-pandas.plotting.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+63649 INFO: Processing standard module hook 'hook-pandas.io.clipboard.py' from 'D:\\Face\\lib\\site-packages\\PyInstaller\\hooks'
+63806 INFO: Processing standard module hook 'hook-fsspec.py' from 'D:\\Face\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
